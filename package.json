@@ -1,0 +1,28 @@
+{
+  "name": "friend-finder-app",
+  "version": "1.0.0",
+  "description": "Friend finder app using NodeJS, Express, Body-parser, Path",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibad1/Friend-Finder.git"
+  },
+  "keywords": [
+    "friend-finder"
+  ],
+  "author": "Ibad Aslam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ibad1/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/ibad1/Friend-Finder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "path": "^0.12.7"
+  }
+}
