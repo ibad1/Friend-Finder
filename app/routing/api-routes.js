@@ -27,7 +27,7 @@ module.exports = function(app) {
     var display = {
       name: "",
       photo: "",
-      friendDifference: 1000
+      diff: 1000
     };
 
     var userData = req.body.scores;
@@ -45,10 +45,10 @@ module.exports = function(app) {
         console.log(differenceNum);
         }
 
-       if (differenceNum <= display.friendDifference) {
+       if (differenceNum <= display.diff) {
             display.name = data[i].name,
             display.photo = data[i].photo,
-            display.friendDifference = differenceNum;
+            display.diff = differenceNum;
           }
 
        }
